@@ -1,0 +1,89 @@
+{
+  "mercado": {
+    "pagamento": [
+      {
+        "id": 1,
+        "tipo": "Dinheiro"
+      },
+      {
+        "id": 2,
+        "tipo": "Cartão Débito"
+      },
+      {
+        "id": 3,
+        "tipo": "Cartão Crédito"
+      },
+      {
+        "id": 4,
+        "tipo": "Pix"
+      }
+    ],
+    "produtos": [
+      {
+        "id": 1,
+        "tipo": "Medalhão De Filé Mignon Bovino Resfriado 500g"
+      },
+      {
+        "id": 2,
+        "tipo": "Feijao Carioquinha Kicaldo 1kg"
+      },
+      {
+        "id": 3,
+        "tipo": "Arroz Branco Rampinelli Tipo 1 1kg"
+      },
+      {
+        "id": 4,
+        "tipo": "Macarrão de Sêmola Espaguete 7 Barilla Caixa 500g"
+      },
+      {
+        "id": 5,
+        "tipo": "Cuscuz Flocão Yoki Kimilho 500g"
+      },
+      {
+        "id": 6,
+        "tipo": "Coca-Cola Sabor Original LATA 350ML"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "A Caminho"
+    },
+    {
+      "id": 3,
+      "tipo": "Entregue"
+    }
+  ],
+  "pedidos": [
+    {
+      "nome": "Severino",
+      "endereco": "R. Sete",
+      "pagamento": "Cartão Débito",
+      "produtos": [
+        "Medalhão De Filé Mignon Bovino Resfriado 500g",
+        "Feijao Carioquinha Kicaldo 1kg",
+        "Coca-Cola Sabor Original LATA 350ML"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    },
+    {
+      "nome": "Jorge",
+      "endereco": "Recife",
+      "pagamento": "Cartão Crédito",
+      "produtos": [
+        "Medalhão De Filé Mignon Bovino Resfriado 500g",
+        "Macarrão de Sêmola Espaguete 7 Barilla Caixa 500g",
+        "Coca-Cola Sabor Original LATA 350ML",
+        "Feijao Carioquinha Kicaldo 1kg"
+      ],
+      "status": "Solicitado",
+      "id": 2
+    }
+  ]
+}
